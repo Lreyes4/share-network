@@ -36,7 +36,7 @@ createUser(req, res) {
   },
   // Get a course
   getSingleUser(req, res) {
-    User.findOne({ _id: req.params.courseId })
+    User.findOne({ _id: req.params.userId })
       .select('-__v')
       .then((user) =>
         !user
@@ -65,7 +65,7 @@ createUser(req, res) {
     console.log(req.body);
     User.findOneAndUpdate(
       { _id: req.params.userId },
-      { $addToSet: { friends: req.body } },
+      { $addToSet: { friends: req.params.friendsId } },
       { runValidators: true, new: true }
     )
       .then((friends) =>
@@ -81,7 +81,7 @@ createUser(req, res) {
   removeFriend(req, res) {
     User.findOneAndUpdate(
       { _id: req.params.userId },
-      { $pull: { reaction: { friendsId: req.params.friendsId } } },
+      { $pull: { friends:  req.params.friendsId } },
       { runValidators: true, new: true }
     )
       .then((friends) =>

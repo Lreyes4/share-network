@@ -16,7 +16,7 @@ const userSchema = new Schema({
         type: String,
         required: true,
         unique: true,
-        validate: [isEmail, "Email is invalid"]
+        // validate: [isEmail, "Email is invalid"]
     },
     thoughts: [{
         type: Schema.Types.ObjectId,
