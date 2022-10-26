@@ -66,4 +66,4 @@ clone repo, add connection to original owner's repo, make changes and push
 [Video 2.webm](https://user-images.githubusercontent.com/103380089/197908844-30159b19-91c7-4d27-9a13-167dc9b4b695.webm)
 
 
-Copyright (c) 2022 Liliana Reyes
+&copy; Liliana Reyes, 2022
