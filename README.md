@@ -13,7 +13,7 @@ This is a Social Network API social network app that let users to share their th
 - [License](#license)
 - [Features](#features)
 - [How to Contribute](#contributions)
-- [Technology Utilized](#technologies utilized)
+- [Technology Utilized](#technologies_utilized)
 - [Link to walkthrough video](#link)
 
 ## Installation
