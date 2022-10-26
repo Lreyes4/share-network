@@ -2,7 +2,7 @@
 
 ## Description
 
-
+This is a Social Network API social network app that let users to share their thoughts, react to friends’ thoughts, and create a friend list.
 
 
 ## Table of Contents
@@ -13,7 +13,7 @@
 - [License](#license)
 - [Features](#features)
 - [How to Contribute](#contributions)
-- [Technology Utilized](#tech utilized)
+- [Technology Utilized](#Technologies Utilized)
 - [Link to walkthrough video](#link)
 
 ## Installation
@@ -51,3 +51,4 @@ clone repo, add connection to original owner's repo, make changes and push
 
 
 ## Walk through video
+
