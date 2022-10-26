@@ -47,7 +47,6 @@ This application has been designed in such a manner that it allows you to naviga
 ## License
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/siennameow/social-network-API/blob/main/LICENSE)
-MIT License
 
 ## How to Contribute
 clone repo, add connection to original owner's repo, make changes and push 
