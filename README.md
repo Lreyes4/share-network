@@ -51,4 +51,6 @@ clone repo, add connection to original owner's repo, make changes and push
 
 
 ## Walk through video
+[Video 1.webm](https://user-images.githubusercontent.com/103380089/197908821-9609aab0-574b-4962-b0c1-5a829f046b8d.webm)
 
+[Video 2.webm](https://user-images.githubusercontent.com/103380089/197908844-30159b19-91c7-4d27-9a13-167dc9b4b695.webm)
