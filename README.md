@@ -9,7 +9,6 @@ This is a Social Network API social network app that let users to share their th
 
 - [Installation](#installation)
 - [Usage](#usage)
-- [Credits](#credits)
 - [License](#license)
 - [How to Contribute](#contributions)
 - [Technology Utilized](#technologies_utilized)
@@ -44,9 +43,6 @@ This application has been designed in such a manner that it allows you to naviga
     `http://localhost:3001/api/thoughts/:id/reactions` <br>
 
     - The route above is used to <u>POST</u> a new reaction. If you wish to <u>DELETE</u> a certain  reaction you can do so by adding an `/id` at the end of the link. 
-
-## Credits
-
 
 ## License
 
