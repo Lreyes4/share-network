@@ -18,13 +18,13 @@ This is a Social Network API social network app that let users to share their th
 
 ## Installation
 
-1. Git clone this repository onto your local machine and navigate to the file on your terminal. *This can also be done by opening the file on Visual Studios and running it through the intergated terminal.*
+1. Git clone this repository onto your local machine and open the terminal to be able to run the commands that are outlined below
 
 2. In order for the app to function correctly, ensure you have the latest or most stable version of Node.js. 
 
 3. Run `npm install` to download.
 
-5. To start the application, run: `npm run start`
+5. To start the application, run: `npm start`
 
 ## Usage
 
