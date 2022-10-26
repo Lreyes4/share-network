@@ -11,7 +11,6 @@ This is a Social Network API social network app that let users to share their th
 - [Usage](#usage)
 - [Credits](#credits)
 - [License](#license)
-- [Features](#features)
 - [How to Contribute](#contributions)
 - [Technology Utilized](#technologies_utilized)
 - [Link to walkthrough video](#link)
@@ -28,8 +27,23 @@ This is a Social Network API social network app that let users to share their th
 
 ## Usage
 
+This application has been designed in such a manner that it allows you to navigate different link routes to display data from the database. 
 
+- GET/ POST routes: <br>
+    `http://localhost:3001/api/users` <br>
+    `http://localhost:3001/api/thoughts`<br>
 
+     - If you wish to <u>GET</u> a certain id you can do so by adding an `/id` at the end of the link. 
+
+- PUT/DELETE routes: <br>
+    `http://localhost:3001/api/users/:id`<br>
+    `http://localhost:3001/api/thoughts/:id` <br>
+
+- POST/ DELETE routes: <br>
+    `http://localhost:3001/api/users/:id/friends/:friendId` <br>
+    `http://localhost:3001/api/thoughts/:id/reactions` <br>
+
+    - The route above is used to <u>POST</u> a new reaction. If you wish to <u>DELETE</u> a certain  reaction you can do so by adding an `/id` at the end of the link. 
 
 ## Credits
 
@@ -37,12 +51,6 @@ This is a Social Network API social network app that let users to share their th
 ## License
 
 MIT License
-
-
-## Features
-
-
-
 
 ## How to Contribute
 clone repo, add connection to original owner's repo, make changes and push 
